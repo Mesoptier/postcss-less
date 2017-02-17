@@ -32,7 +32,7 @@
   "homepage": "https://github.com/webschik/postcss-less#readme",
   "scripts": {
     "test": "./node_modules/.bin/gulp test:all",
-    "postinstall": "./node_modules/.bin/gulp dist"
+    "prepublish": "./node_modules/.bin/gulp dist"
   },
   "dependencies": {
     "postcss": "^5.0.21 <5.2"
